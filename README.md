@@ -1,4 +1,25 @@
-<<<<<<< HEAD
+# AWS Microservices CI/CD Project 🚀
+
+This project demonstrates a microservices-based application using Node.js, Docker, and CI/CD concepts.
+
+## 📦 Services
+- Employee Service
+
+## 🛠️ Technologies
+- Node.js
+- Express
+- Docker
+- AWS (EC2, ECR, CodePipeline)
+
+## 🚀 Features
+- REST API
+- MVC architecture
+- Containerized application
+
+## ▶️ Run
+```bash
+docker build -t employee-service .
+docker run -p 3000:3000 employee-service
          ___        ______     ____ _                 _  ___  
         / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
        / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
